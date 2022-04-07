@@ -103,7 +103,7 @@ services:
     image: messense/aliyundrive-webdav
 ```
 
-其中 `REFRESH_TOKEN` 文档最下面说明；`:8080` 网盘访问映射端口，可以按需改为其他的。
+其中 `REFRESH_TOKEN` 文档最下面说明；后面的`:8080`docker端口 网盘访问映射端口，可以按需改为其他的。
 
 点击 Create (创建)后启动，访问 http://nas地址:8080/ 即可看到你网盘的自动生成索引网页文件。
 
